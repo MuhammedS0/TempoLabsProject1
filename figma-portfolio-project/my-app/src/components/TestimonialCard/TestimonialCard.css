@@ -1,0 +1,88 @@
+
+/* Main container for the card */
+.testimonial-card {
+  background-color: #4c4c4c; /* Dark gray matching screenshot */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  border-radius: 16px;
+  width: 500px; /* Wider card */
+  height: 220px; /* Shorter card */
+  position: relative;
+  font-family: "Arial", sans-serif;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  overflow: hidden;
+}
+
+/* Header section (image + info) */
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.testimonial-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  background-color: black;
+}
+
+.testimonial-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.testimonial-role {
+  margin: 0;
+  font-size: 14px;
+  color: #bfbfbf;
+}
+
+/* Rating section */
+.testimonial-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.star {
+  color: #ff8800; /* Orange color for the stars */
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+.rating-number {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 8px;
+  color: #ffffff;
+}
+
+/* Review text */
+.testimonial-review {
+  font-size: 14px;
+  line-height: 1.4; /* Slightly reduced for shorter height */
+  color: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+/* Quotation mark background */
+.testimonial-quote-icon {
+  content: "”";
+  font-size: 110px; /* Increased font size for larger commas */
+  color: rgba(255, 255, 255, 0.08); /* Very subtle */
+  position: absolute;
+  top: 5px; /* Adjusted downward slightly */
+  right: 20px; /* Adjusted inward slightly */
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
