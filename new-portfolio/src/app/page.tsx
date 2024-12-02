@@ -32,7 +32,8 @@ import UiUxProjectCard from "./components/UiUxProjectCard";
 export default function Home() {
   return (
     <>
-    
+{/* These are the components for the portfolio website  as shown in figma. Designs and specifications are taken from the portfolio's figma's tailwind(TSX) Design.
+    If you would like to look at at the components seperatly, feel free to look at them holistically or individually */}
       <BlackArrowButton/>
       <GreyArrowButton/>
       <WhiteArrowButton/>
